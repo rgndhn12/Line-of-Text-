@@ -10,7 +10,7 @@ def multiple():
 
     #   write in mylife.txt
         user_input_line.write(line_content)
-
+  
     while True:  
 
     #asking another for a possible user's input line
@@ -20,7 +20,13 @@ def multiple():
         if (want_another.lower() == "y"):
             multiple()
     #   if no
-    
+        elif (want_another.lower() == "n"):
+            print("You can now view your input lines in mylife.txt!")
+            exit()
+        
+        else:
+            print ("Invalid.")
+            
     #display the output
 
 multiple()
