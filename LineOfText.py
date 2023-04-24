@@ -3,9 +3,11 @@
 #open mylife.txt
 with open ("mylife.txt", "w") as user_input_line:
     
-#user's input line  
+#user's input line
+    line_content = input ("Enter line: ")
 #   write in mylife.txt
 #asking another for a possible user's input line
 #   if yes
 #   if no
 #display the output
+
