@@ -35,6 +35,9 @@ def multiple():
             multiple()
     #   if no
         elif (want_another.lower() == "n"):
+            print(border)
+            time.sleep(2)
+            print(Fore.YELLOW+pyfiglet.figlet_format("YEY",font="isometric1"))
             print("You can now view your input line in mylife.txt!")
             exit()
         else:
